@@ -1,0 +1,193 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 50%;
+  float: left;
+}
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 33%;
+}
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* MEDIA QUERI - VW > 420PX  */
+
+@media screen and (max-width: 420px){
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+/* BLOCCO LEZIONI */
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+    margin: auto;
+  }
+
+  #lezioni{
+    background-color: rgb(240, 240, 177);
+    padding:15px;
+  }
+
+/* BLOCCO STEPS */
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+#steps{
+  padding:15px;
+}
+
+/* BLOCCO PERCHE */
+
+#why .row img {
+  height: 100px;
+  padding:20px;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  margin-top: 10px;
+}
+
+#why{
+  background-color: rgb(240, 240, 177);
+  padding:15px;
+}
+
+/* COMMON */
+
+h3{
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+img {
+  height: 100px;
+  margin-top: 15px;
+}
+
+/* EXAMPLE */
+
+/* .layout{
+  width: 100%;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.row-1 >*,
+.row-2 >*,
+.row-3 >*,
+.row-4 >*{
+  border: 2px solid black;
+  background: pink;
+}
+
+
+.row-5 >.col-6{
+  border: 2px solid black;
+  background: pink;
+  padding:5px ;
+}
+
+
+[class*="box-coral"]{
+  background: coral;
+  height: calc(150px - 14px);
+  border: 1px solid white;
+  position: relative;
+}
+
+
+[class*="col-"]{
+  position: relative;
+}
+
+.box-pink{
+  position:absolute;
+  Top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.content{
+  position:absolute;
+  Top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+} */
