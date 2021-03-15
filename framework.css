@@ -1,15 +1,5 @@
 
 
-.row::after{
-    content:'';
-    display: table;
-    clear: both;
-}
-
-[class*="col-"]{
-    float: left;
-}
-
 /*COLUMN*/
 .col-1{
     width: calc(100% / 12);
@@ -56,6 +46,6 @@
 }
 
 .col-12{
-    width: calc((100% / 12) * 12);
+    width:100%;
 }
 
